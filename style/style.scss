@@ -1,9 +1,12 @@
 $gutter-spacing: 5px;
 $padding-card: 10px 20px;
+$primary: #faa4b2;
+$secondary: #fc728e;
+$success: #fd4569;
+$dark: #373737;
 
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
-
 @import "~bootstrap/scss/bootstrap";
 
 // these are the custom styles I could not figure through either the bootstrap variables or functions
