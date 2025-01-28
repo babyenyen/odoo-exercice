@@ -1,0 +1,47 @@
+$gutter-spacing: 5px;
+$padding-card: 10px 20px;
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+@import "~bootstrap/scss/bootstrap";
+
+// these are the custom styles I could not figure through either the bootstrap variables or functions
+.card {
+    max-width: 600px;
+    .card-header {
+        ul {
+            li {
+                margin-right: $gutter-spacing;
+                a {
+                    padding: $padding-card;
+                }
+            }
+        }
+    }
+    .card-body {
+        padding: 0;
+        .tab-content {
+            .tab-pane {
+                .card-body-header {
+                    padding: 0 20px;
+                }
+                .list-group {
+                    .list-group-item.active {
+                        background-color: var(--bs-body-bg);
+                        color: var(--bs-secondary-color);
+                        border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+                    }
+                }
+                .loader-body {
+                    height: 300px;
+                }
+                
+            }
+        }
+        .image-container {
+            height: 250px
+        }
+    }
+}
+
